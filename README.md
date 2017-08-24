@@ -29,6 +29,8 @@ $ composer require libcsi/libcsi "dev-master"
   
 ```php
 <?php
+  
+require_once 'vendor/autoload.php';
 
 // put it somewhere you like  
 $config = array (
