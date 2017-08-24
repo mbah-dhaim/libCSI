@@ -1,9 +1,5 @@
 <?php
-namespace example\Model;
-
-use CSI\Data\Model;
-
-final class TableTest extends Model {
+final class TableTest extends \CSI\Data\Model {
 	protected $table="table_test";
 	protected $primaryKey="id";
 }
