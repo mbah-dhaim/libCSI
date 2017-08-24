@@ -3,12 +3,20 @@ simple library for connecting database and create query builder model
 version **dev**  
 * only support mysql/mariadb syntax
 
-##installing
+## installatation
+
+It's recommended that you use [Composer](https://getcomposer.org/) to install  
+```bash  
+$ composer require libcsi/libcsi "dev-master"  
+```  
+
+**OR**
+
 * create composer.json containing  
 `{  "minimum-stability": "dev",  "require": {  "php": ">=5.3.0",  "libcsi/libcsi": "dev-master"  }  }`
 * run `composer install`  
 
-##usage example
+## usage example
 
 `<?php`  
 `use CSI\Data\DataAdapter;`  
@@ -29,7 +37,7 @@ version **dev**
 `die($e->getMessage());`  
 `}`  
 
-###example model
+### example model
 `<?php`  
 `final class TableTest extends \CSI\Data\Model {`  
 `//change to what table in database`  
@@ -38,7 +46,7 @@ version **dev**
 `protected $primaryKey="id";`  
 `}`  
 
-####fetching data using model
+#### fetching data using model
 `$table = new TableTest();`  
 `$table->find("a primary key value");`  
 `$fieldvalue = $table->afiedname;`
