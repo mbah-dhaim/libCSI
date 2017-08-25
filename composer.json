@@ -2,7 +2,7 @@
 	"name": "libcsi/libcsi",
 	"description": "lib csi composer project",
 	"type": "package",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"authors": [
 		{
