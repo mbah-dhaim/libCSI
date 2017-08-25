@@ -1,14 +1,14 @@
 # libcsi
   
 Simple library for connecting database and create query builder model  
-version **dev-master**  
+version **v1.0.2**  
 * only support **mysql/mariadb** syntax
 
 ## installatation
   
 It's recommended that you use [Composer](https://getcomposer.org/) to install  
 ```bash  
-$ composer require libcsi/libcsi "dev-master"  
+$ composer require libcsi/libcsi "^1.0"  
 ```  
 
 **OR**
@@ -19,7 +19,7 @@ $ composer require libcsi/libcsi "dev-master"
 	"minimum-stability": "dev",
 	"require": {
 		"php": ">=5.3.0",
-		"libcsi/libcsi": "dev-master"
+		"libcsi/libcsi": "^1.0"
 	}
 }
 ```
